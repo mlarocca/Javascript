@@ -85,7 +85,7 @@ The IPStorageHandler object's interface exposes the following methods (see code 
 	Deletes the value for the IP field saved in sessionStorage (NOT the one in localStorage - WARNING the value in localStorage 
 		will be kept even when the current page will be closed, and shared with other pages open on the same browser)
 
-The IPStorageWrapper is a singleton object; upon creation, the functions that handle value prompting and user feedback (by default here prompt and alert) can be customized.
+IPStorageWrapper is a singleton object; upon creation, the functions that handle value prompting and user feedback (by default here prompt and alert) can be customized.
 
 ## Asynchronous Image Loader
 
@@ -102,3 +102,14 @@ The loading function
 loadImage(destination_jquery_div, img_url, width, height)
 ```
 takes as arguments a jquery wrapper for a div, the url of the image to load, and optional width and height parameters.
+
+	
+## Data Structures
+* **Queues**
+* **Priority Queues**
+* **Graphs**
+	Operation on graphs:
+	1. Depth-First Search
+	2. Breadth-First Search
+	3. Dijkstra algorithm (single source shortest path)
+	4. Prim algorithm (minimum spanning tree)
