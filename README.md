@@ -75,7 +75,7 @@ The IPStorageHandler object's interface exposes the following methods (see code 
                         Deletes the value for the IP field saved in sessionStorage (NOT the one in localStorage - WARNING the value in localStorage 
 							will be kept even when the current page will be closed, and shared with other pages open on the same browser)
 
-		The IPStorageWrapper is a singleton object; upon creation, the functions that handle value prompting and user feedback (by default here prompt and alert) can be customized.
+		IPStorageWrapper is a singleton object; upon creation, the functions that handle value prompting and user feedback (by default here prompt and alert) can be customized.
 
 ## Asynchronous Image Loader
 
