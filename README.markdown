@@ -2,6 +2,11 @@
 
 A collection of various JavaScript utilities and patterns
 
+## Utilities (utils.js)
+
+** Required by HTML 5 Storage and Asynchronous Image Loader **
+Various utilities functions added to Arrays and Objects prototypes, plus a Utils object added to global namespace which provides a few more useful functions.
+
 ## HTML 5 Storage
 
 A wrapper for the HTML 5 local storage functionalities; it exposes an interface to friendly handle session and persistent storage, handle browser compatibility and quota errors
