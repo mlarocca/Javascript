@@ -1,6 +1,14 @@
-# Javascript libs 
+# JavaScript libs 
 
 A collection of various JavaScript utilities and patterns
+
+## JavaScript Object Oriented Extension
+An extension lib to JavaScript core that allows effective encapsulation to cohexist with inheritance.
+
+See more here: 
+
+http://mlarocca.github.com/Javascript-OOE
+https://github.com/mlarocca/Javascript-OOE
 
 ## Utilities (utils.js)
 
