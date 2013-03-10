@@ -127,3 +127,15 @@ takes as arguments a jquery wrapper for a div, the url of the image to load, and
 	2. Breadth-First Search
 	3. Dijkstra algorithm (single source shortest path)
 	4. Prim algorithm (minimum spanning tree)
+    
+    
+## Words in-document highlighting
+
+Highlights arbitrary terms assigning up to 2 custom classes to it.
+It is possible to use regular expressions as pattern and to choose to highlight only whole words matching it.
+The _highlightClassName_ parameter can be used to easily remove all the highlighting in a DOM elements with one single call,
+while the specificClassName parameter allow for highlighting each pattern with a different css style (but it is optional).
+For each highlighted piece of text, a span is created in the original HTML document and (up to) 2 classes 
+( _highlightClassName_ and _specificClassName_)are assigned to this new tag.
+
+Based on <http://johannburkard.de/blog/programming/javascript/highlight-javascript-text-higlighting-jquery-plugin.html> by Johann Burkard
